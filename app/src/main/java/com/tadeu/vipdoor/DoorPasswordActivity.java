@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class DoorPasswordActivity extends AppCompatActivity implements View.OnClickListener{
 
     private ViewHolderDoorPassword mViewHolderDoorPassword = new ViewHolderDoorPassword();
-    int teste;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
