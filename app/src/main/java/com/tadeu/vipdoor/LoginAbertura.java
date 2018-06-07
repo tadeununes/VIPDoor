@@ -14,6 +14,7 @@ public class LoginAbertura extends AppCompatActivity implements View.OnClickList
     /*private static final int DKGRAY = -12303292;
     public static final int GREEN = -16711936;*/
     private ViewHolderDoorChoose mViewHolderDoorChoose = new ViewHolderDoorChoose();
+    int teste;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
