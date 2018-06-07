@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">VIP Door</string>
+    <string name="choose_door">Escolha a porta que deseja abrir</string>
+    <string name="door1">Porta 1</string>
+    <string name="ip_door1">(172.0.152.100)</string>
+    <string name="door2">Porta 2</string>
+    <string name="ip_door2">(172.0.152.101)</string>
+    <string name="passwd_door">Digite a senha da Porta n°</string>
+    <string name="door_number">1</string>
+    <string name="door_hint">••••••••</string>
+    <string name="success_open">Porta aberta com sucesso!</string>
+    <string name="new_door_open">Abrir outra porta?</string>
+    <string name="login_hint">login</string>
+    <string name="passwd_hint">senha</string>
+</resources>

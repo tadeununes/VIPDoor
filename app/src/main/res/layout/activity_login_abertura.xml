@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_abertura"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginAbertura">
+
+    <TextView
+        android:id="@+id/text_choose_door"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_door"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="45dp"
+        android:paddingBottom="45dp"/>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_choose_door"
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/img_door_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_screen_lock_portrait_black_48dp"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="80dp"/>
+
+        <ImageButton
+            android:id="@+id/img_door_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_screen_lock_portrait_black_48dp"
+            android:layout_alignParentRight="true"
+            android:paddingRight="80dp"/>
+
+        <TextView
+            android:id="@+id/text_door1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/door1"
+            android:layout_below="@id/img_door_1"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="70dp"/>
+
+        <TextView
+            android:id="@+id/text_door2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/door2"
+            android:layout_below="@id/img_door_2"
+            android:layout_alignParentRight="true"
+            android:paddingRight="70dp"/>
+
+        <TextView
+            android:id="@+id/text_ip_door1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ip_door1"
+            android:layout_below="@id/text_door1"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="40dp"/>
+
+        <TextView
+            android:id="@+id/text_ip_door2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ip_door2"
+            android:layout_below="@id/text_door2"
+            android:layout_alignParentRight="true"
+            android:paddingRight="40dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
