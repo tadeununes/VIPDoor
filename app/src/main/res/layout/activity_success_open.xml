@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_success_open"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     tools:context=".SuccessOpenActivity">
 
     <TextView
@@ -14,8 +14,8 @@
         android:layout_height="wrap_content"
         android:text="@string/success_open"
         android:layout_gravity="center_horizontal"
-        android:paddingTop="25dp"
-        android:paddingBottom="25dp"/>
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="90dp"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -24,8 +24,8 @@
         android:src="@mipmap/ic_screen_lock_portrait_black_48dp"
         android:scaleX="3"
         android:scaleY="3"
-        android:paddingTop="35dp"
-        android:paddingBottom="35dp" />
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="35dp" />
 
     <TextView
         android:id="@+id/text_new_door_open"
@@ -33,8 +33,8 @@
         android:layout_height="wrap_content"
         android:text="@string/new_door_open"
         android:clickable="true"
+        android:focusable="true"
         android:layout_gravity="center_horizontal"
-        android:paddingTop="300dp"
-        android:paddingBottom="15dp"/>
+        android:layout_marginTop="150dp" />
 
 </LinearLayout>
