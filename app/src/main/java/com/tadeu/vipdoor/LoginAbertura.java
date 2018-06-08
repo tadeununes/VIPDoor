@@ -14,7 +14,7 @@ public class LoginAbertura extends AppCompatActivity implements View.OnClickList
     public static final int GREEN = -16711936;*/
     private ViewHolderDoorChoose mViewHolderDoorChoose = new ViewHolderDoorChoose();
 
-    int doorChoosed;
+    //int doorChoosed;
 
 
     @Override
@@ -22,15 +22,15 @@ public class LoginAbertura extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_abertura);
 
-        this.mViewHolderDoorChoose.textDoor1 = findViewById(R.id.text_ip_door1);
-        this.mViewHolderDoorChoose.textDoor2 = findViewById(R.id.text_ip_door2);
+        this.mViewHolderDoorChoose.textDoor1 = findViewById(R.id.text_door1);
+        this.mViewHolderDoorChoose.textDoor2 = findViewById(R.id.text_door2);
         this.mViewHolderDoorChoose.door1 = findViewById(R.id.img_door_1);
         this.mViewHolderDoorChoose.door2 = findViewById(R.id.img_door_2);
 
         this.mViewHolderDoorChoose.door1.setOnClickListener(this);
         this.mViewHolderDoorChoose.door2.setOnClickListener(this);
 
-        this.sendDoorNumber();
+        //this.sendDoorNumber();
     }
 
     @Override
@@ -61,7 +61,7 @@ public class LoginAbertura extends AppCompatActivity implements View.OnClickList
         ImageButton door2;
     }
 
-    //Método que deve ser criado para definir qual vai ser a porta e mandar para a próxima activity
+    /*//Método que deve ser criado para definir qual vai ser a porta e mandar para a próxima activity
     private void sendDoorNumber (){
 
         //Coletando o texto das 'TextView' das portas
@@ -88,5 +88,5 @@ public class LoginAbertura extends AppCompatActivity implements View.OnClickList
             //'setar' o text view 'doorNumber'da activity 'DoorPasswordActivity
             doorChoosed = nD2;
         }
-    }
+    }*/
 }
