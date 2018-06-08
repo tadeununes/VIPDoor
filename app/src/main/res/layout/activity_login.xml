@@ -19,7 +19,7 @@
         android:layout_marginBottom="90dp"/>
     <EditText
         android:id="@+id/edit_login"
-        android:layout_width="80dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textAlignment="center"
@@ -28,7 +28,7 @@
         android:hint="@string/login_hint"/>
     <EditText
         android:id="@+id/edit_password"
-        android:layout_width="80dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textAlignment="center"

@@ -19,8 +19,11 @@ public class DoorPasswordActivity extends AppCompatActivity implements View.OnCl
         setContentView(R.layout.activity_door_password);
 
         this.mViewHolderDoorPassword.doorNumber = findViewById(R.id.text_door_number);
+        this.mViewHolderDoorPassword.text_door_number_test = findViewById(R.id.text_door_number_test);
         this.mViewHolderDoorPassword.passDoor = findViewById(R.id.edit_door_passwd);
         this.mViewHolderDoorPassword.openDoor = findViewById(R.id.img_open_door);
+
+        this.mViewHolderDoorPassword.text_door_number_test.setText("Porta escolhida!"); //'Setar' a TextView com a variável 'doorChoosed' da Activity 'LoginAbertura'
 
         this.mViewHolderDoorPassword.openDoor.setOnClickListener(this);
     }
@@ -36,6 +39,7 @@ public class DoorPasswordActivity extends AppCompatActivity implements View.OnCl
 
     private static class ViewHolderDoorPassword{
         TextView doorNumber;
+        TextView text_door_number_test;
         EditText passDoor;
         ImageButton openDoor;
     }
