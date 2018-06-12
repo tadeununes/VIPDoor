@@ -9,16 +9,16 @@
         android:roundIcon="@mipmap/icon_app"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity">
+        <activity android:name=".views.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DoorPasswordActivity" />
-        <activity android:name=".SuccessOpenActivity" />
-        <activity android:name=".LoginAbertura"/>
+        <activity android:name=".views.DoorPasswordActivity" />
+        <activity android:name=".views.SuccessOpenActivity" />
+        <activity android:name=".views.ChooseDoorActivity"/>
     </application>
 
 </manifest>
