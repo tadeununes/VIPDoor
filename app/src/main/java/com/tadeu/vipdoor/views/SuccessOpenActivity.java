@@ -17,6 +17,8 @@ public class SuccessOpenActivity extends AppCompatActivity implements View.OnCli
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_success_open);
 
+
+
         this.mViewHolderSuccessOpen.newDoorOpen = findViewById(R.id.text_new_door_open);
 
         this.mViewHolderSuccessOpen.newDoorOpen.setOnClickListener(this);

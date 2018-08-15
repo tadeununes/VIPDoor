@@ -23,6 +23,8 @@ public class DoorPasswordActivity extends AppCompatActivity implements View.OnCl
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_door_password);
 
+
+
         this.mViewHolderDoorPassword.doorNumber = findViewById(R.id.text_door_number);
         this.mViewHolderDoorPassword.passDoor = findViewById(R.id.edit_door_passwd);
         this.mViewHolderDoorPassword.openDoor = findViewById(R.id.img_open_door);
@@ -31,6 +33,12 @@ public class DoorPasswordActivity extends AppCompatActivity implements View.OnCl
 
         this.mViewHolderDoorPassword.openDoor.setOnClickListener(this);
 
+
+    }
+
+    @Override
+    protected void onResume(){
+        super.onResume();
         this.verifyPreferences();
     }
 

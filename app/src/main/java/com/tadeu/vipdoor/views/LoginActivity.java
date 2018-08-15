@@ -18,6 +18,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+
+
         this.mViewHolderLogin.editLogin = findViewById(R.id.edit_login);
         this.mViewHolderLogin.editPassword = findViewById(R.id.edit_password);
         this.mViewHolderLogin.appIcon = findViewById(R.id.img_app_icon);
